@@ -38,7 +38,7 @@
     background-image: linear-gradient(to left, #3FA6D3, #3672B3);
   }
 
-  .search-bar {
+  .bar {
     margin: auto;
     margin-top: 2em;
     background-color: white;
@@ -49,6 +49,21 @@
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
+  }
+
+  .search-icon {
+    width: 22px;
+    height: 22px;
+    padding-top: .5%;
+    padding-left: 5%;
+  }
+
+  .menu {
+    position: absolute;
+    padding-left: 50%;
+    padding-top: 10%;
+    width: 36px;
+    height: 36px;
   }
 
   /*Header Section Ends */
@@ -86,7 +101,7 @@
     padding: 5%;
   }
 
-  .explore {
+  .exploreBtn {
     background-color: #3672B3;
     color: white;
     margin-top: 2em;
@@ -94,14 +109,68 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
-    margin: 4px 2px;
+    margin: 6px 4px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
     border: none;
     cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .username {
+    margin: 8%;
+    padding-top: 5%;
+    text-align: left;
+  }
+
+  .password {
+    margin: 8%;
+    text-align: left;
+  }
+
+  .accountBar {
+    margin: 8%;
+    margin-bottom: 5%;
+    background-color: white;
+    width: 200px;
+    height: 25px;
+    left: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+
+  .signUp {
+    margin-left: 0%;
+    padding-right: 25%;
+    text-align: left;
+    display: inline;
+  }
+
+  .help {
+    text-align: left;
+    display: inline;
+  }
+
+  .loginBtn {
+    background-color: #3672B3;
+    color: white;
+    margin-top: 4em;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10% 4px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   /*Body Section Ends */
