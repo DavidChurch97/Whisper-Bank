@@ -173,20 +173,6 @@
     font-family: Arial, Helvetica, sans-serif;
   }
 
-  .body-section-account {
-    margin: auto;
-    margin-top: 5%;
-    left: 0;
-    width: 302px;
-    height: 457px;
-    background-color: #395776;
-    color: white;
-    text-align: center;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-  }
-
-  
   .card-section {
     margin: auto;
     margin-top: 17em;
@@ -233,6 +219,40 @@
     width: 36px;
     height: 36px;
     transform: rotate(180deg);
+  }
+
+  .body-section-account-top {
+    margin: auto;
+    margin-top: 5%;
+    width: 302px;
+    height: 50px;
+    background-color: #395776;
+    color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+
+  .body-section-account-right-side {
+    float: right;
+    padding-left: 30%;
+    width: 101px;
+    height: 100px;
+    background-color: #ffffff;
+    color: white;
+  }
+
+  .body-section-account-left-side {
+    float: left;
+    width: 110px;
+    height: 100px;
+    background-color: #395776;
+    color: white;
+  }
+
+  .transaction-title {
+    margin-left: 10%;
+    padding-top: .8em;
+    text-align: left;
   }
 
   /*Body Section Ends */
